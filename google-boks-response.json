@@ -1,0 +1,835 @@
+{
+	"kind": "books#volumes",
+	"totalItems": 164,
+	"items": [
+		{
+			"kind": "books#volume",
+			"id": "-yFGBwAAQBAJ",
+			"etag": "sE8LPPD+wzY",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/-yFGBwAAQBAJ",
+			"volumeInfo": {
+				"title": "Warriors",
+				"authors": [
+					"George R.R. Martin"
+				],
+				"publisher": "Singapore Books",
+				"description": "From George R. R. Martin's Introduction to Warriors: \"People have been telling stories about warriors for as long as they have been telling stories. Since Homer first sang the wrath of Achilles and the ancient Sumerians set down their tales of Gilgamesh, warriors, soldiers, and fighters have fascinated us; they are a part of every culture, every literary tradition, every genre. All Quiet on the Western Front, From Here to Eternity, and The Red Badge of Courage have become part of our literary canon, taught in classrooms all around the country and the world. Our contributors make up an all-star lineup of award-winning and bestselling writers, representing a dozen different publishers and as many genres. We asked each of them for the same thing--a story about a warrior. Some chose to write in the genre they're best known for. Some decided to try something different. You will find warriors of every shape, size, and color in these pages, warriors...",
+				"readingModes": {
+					"text": true,
+					"image": false
+				},
+				"printType": "BOOK",
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "1.1.1.0.preview.2",
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=-yFGBwAAQBAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=-yFGBwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=-yFGBwAAQBAJ&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=1&source=gbs_api",
+				"infoLink": "http://books.google.ca/books?id=-yFGBwAAQBAJ&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Warriors.html?hl=&id=-yFGBwAAQBAJ"
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": true
+				},
+				"pdf": {
+					"isAvailable": true
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=-yFGBwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "n_ocswEACAAJ",
+			"etag": "36HecCurStY",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/n_ocswEACAAJ",
+			"volumeInfo": {
+				"title": "Warrior Women",
+				"authors": [
+					"Elizabeth Bear",
+					"Nancy Kress",
+					"Seanan McGuire",
+					"George R. R. Martin",
+					"Carrie Vaughn",
+					"Elizabeth Moon",
+					"Jane Yolen",
+					"Robert Reed"
+				],
+				"publisher": "Prime Books",
+				"publishedDate": "2015-12-08",
+				"description": "\"Each story contains strength and compassion, even when the personal cost is high. The depictions of battle and trauma are rarely graphic, but they're as hard-hitting as the subject demands. This is a truly impressive accomplishment for Guran and her contributors.\" - Publishers Weekly (STARRED) From fantastic legends and science fictional futures come compelling tales of powerful women-or those who discover strength they did not know they possessed-who fight because they must, for what they believe in, for those they love, to simply survive, or who glory in battle itself. Fierce or fearful, they are courageous and honorable-occasionally unscrupulous and tainted-but all warriors worthy of the name. Join bestselling authors, Elizabeth Bear, Nancy Kress, George R. R. Martin, Elizabeth Moon and many others as they celebrate the STRONG FEMALE PROTAGONIST in what Publishers Weekly calls an \"epic anthology\".",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_10",
+						"identifier": "1607014580"
+					},
+					{
+						"type": "ISBN_13",
+						"identifier": "9781607014584"
+					}
+				],
+				"readingModes": {
+					"text": false,
+					"image": false
+				},
+				"pageCount": 384,
+				"printType": "BOOK",
+				"averageRating": 4,
+				"ratingsCount": 2,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": false,
+				"contentVersion": "preview-1.0.0",
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=n_ocswEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=n_ocswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=n_ocswEACAAJ&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=2&source=gbs_api",
+				"infoLink": "http://books.google.ca/books?id=n_ocswEACAAJ&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/Warrior_Women.html?hl=&id=n_ocswEACAAJ"
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "NO_PAGES",
+				"embeddable": false,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED",
+				"epub": {
+					"isAvailable": false
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=n_ocswEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "NONE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "&quot;From fantastic legends and science fictional futures come compelling tales of powerful women-or those who discover strength they did not know they possessed--who fight because they must, for what they believe in, for those they love, to ..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "btpIkZ6X6egC",
+			"etag": "TFMs+6exNds",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/btpIkZ6X6egC",
+			"volumeInfo": {
+				"title": "A Game of Thrones",
+				"authors": [
+					"George R. R. Martin"
+				],
+				"publisher": "Spectra",
+				"publishedDate": "1997",
+				"description": "The kingdom of the royal Stark family faces its ultimate challenge in the onset of a generation-long winter, the poisonous plots of the rival Lannisters, the emergence of the Neverborn demons, and the arrival of barbarian hordes",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780553573404"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0553573403"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": false
+				},
+				"pageCount": 835,
+				"printType": "BOOK",
+				"categories": [
+					"Fiction"
+				],
+				"averageRating": 4,
+				"ratingsCount": 563,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "2.8.6.0.preview.2",
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=btpIkZ6X6egC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=btpIkZ6X6egC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=btpIkZ6X6egC&printsec=frontcover&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=3&source=gbs_api",
+				"infoLink": "http://books.google.ca/books?id=btpIkZ6X6egC&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/A_Game_of_Thrones.html?hl=&id=btpIkZ6X6egC"
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones-sample-epub.acsm?id=btpIkZ6X6egC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=btpIkZ6X6egC&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "The kingdom of the royal Stark family faces its ultimate challenge in the onset of a generation-long winter, the poisonous plots of the rival Lannisters, the emergence of the Neverborn demons, and the arrival of barbarian hordes"
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "xboeHQi34OoC",
+			"etag": "DuEcN8gY1mk",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/xboeHQi34OoC",
+			"volumeInfo": {
+				"title": "George R. R. Martin Starter Pack 4-Book Bundle",
+				"subtitle": "A Game of Thrones, Dreamsongs: Volume I, Fevre Dream, Armageddon Rag",
+				"authors": [
+					"George R. R. Martin"
+				],
+				"publisher": "Bantam",
+				"publishedDate": "2012-12-03",
+				"description": "The epic saga that inspired HBO’s Game of Thrones made George R. R. Martin an international phenomenon, but there’s much more to this versatile, prolific, and original author. In addition to the book that kicks off A Song of Ice of Fire, this eBook bundle includes Dreamsongs: Volume I, which showcases Martin’s early writings; Fevre Dream, the acclaimed author’s reinvention of the vampire novel; and The Armageddon Rag, a thrilling story of psychedelic—and apocalyptic—rock. Spanning genres of fantasy, science fiction, horror, and suspense, Martin’s virtuosic talents will surprise and delight even his most devoted fans. A GAME OF THRONES “The only fantasy series I’d put on a level with J.R.R. Tolkien’s The Lord of the Rings . . . It’s a fantasy series for hip, smart people, even those who don’t read fantasy.”—Chicago Tribune In a land where summers can last decades and winters a lifetime, trouble is brewing. As sinister forces mass beyond the kingdom’s protective Wall, the king’s powers are failing—his most trusted adviser is dead and his enemies are emerging from the shadows of the throne. At the center of the conflict lie the Starks of Winterfell, a family as harsh and unyielding as the frozen land they were born to. Now Lord Eddard Stark is reluctantly summoned to serve as the king’s new Hand, an appointment that threatens to sunder not only his family but the kingdom itself. DREAMSONGS: VOLUME I “The ideal way to discover . . . a master of science fiction, fantasy and horror. . . . Martin is a writer like no other.”—The Guardian (U.K.) Gathered here are the very best of Martin’s early works, including his Hugo, Nebula, and Bram Stoker award–winning stories, cool fan pieces, and the original novella The Ice Dragon, from which his New York Times bestselling children’s book of the same title originated. With extensive author commentary, Dreamsongs: Volume I is a rare treat, offering fascinating insights into Martin’s journey from young writer to award-winning master. FEVRE DREAM “An adventure into the heart of darkness that transcends even the most inventive vampire novels.”—Los Angeles Herald Examiner Abner Marsh, a struggling riverboat captain, suspects that something’s amiss when he is approached by a wealthy aristocrat with a lucrative offer. The hauntingly pale, steely-eyed Joshua York doesn’t care that the icy winter of 1857 has wiped out all but one of Marsh’s dilapidated fleet. Not until the maiden voyage of Fevre Dream does Marsh realize that he has joined a mission both more sinister, and perhaps more noble, than his most fantastic nightmare—and humankind’s most impossible dream. THE ARMAGEDDON RAG “The best novel concerning the American pop music culture of the sixties I’ve ever read.”—Stephen King Onetime underground journalist Sandy Blair has come a long way from his radical roots in the sixties—until he’s drawn back by the bizarre and brutal murder of a rock promoter who made millions with a band called the Nazgûl. As Sandy investigates the crime, he finds himself drawn back into his own past. For a new messiah has resurrected the Nazgûl along with a requiem of demonism, mind control, and death, whose apocalyptic tune only Sandy may be able to change.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780345541130"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0345541138"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": false
+				},
+				"pageCount": 1520,
+				"printType": "BOOK",
+				"categories": [
+					"Fiction"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.1.1.0.preview.2",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=xboeHQi34OoC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=xboeHQi34OoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=xboeHQi34OoC&pg=PT99&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=4&source=gbs_api",
+				"infoLink": "http://books.google.ca/books?id=xboeHQi34OoC&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/George_R_R_Martin_Starter_Pack_4_Book_Bu.html?hl=&id=xboeHQi34OoC"
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/George_R_R_Martin_Starter_Pack_4_Book_Bu-sample-epub.acsm?id=xboeHQi34OoC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": false
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=xboeHQi34OoC&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "A Game of Thrones, Dreamsongs: Volume I, Fevre Dream, Armageddon Rag <br>\n<b>George R. R.</b> Martin. women to fight over. The <b>warriors</b> were watching too. One of <br>\nthem finally stepped into the circle, grabbed a dancer by the arm, pushed her <br>\ndown&nbsp;..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "gya4AwAAQBAJ",
+			"etag": "EBPlULxY0EU",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/gya4AwAAQBAJ",
+			"volumeInfo": {
+				"title": "A Game of Thrones: The Graphic Novel",
+				"subtitle": "Volume Two",
+				"authors": [
+					"George R. R. Martin"
+				],
+				"publisher": "Bantam Dell",
+				"publishedDate": "2013-06-11",
+				"description": "#1 NEW YORK TIMES BESTSELLER Novelist Daniel Abraham and illustrator Tommy Patterson are not merely turning George R. R. Martin’s epic fantasy A Game of Thrones into a graphic novel: They are meticulously translating one art form into another, and capturing the intricate nuances of Martin’s novels just as HBO is doing with the blockbuster series. The Abraham/Patterson collaboration is more than just a faithful adaptation. It is a labor of love—and a thrilling masterwork in its own right. Now, in the second volume, the sweeping action moves from the icy north, where the bastard Jon Snow seeks to carve out a place for himself among bitter outcasts and hardened criminals sworn to service upon the Wall . . . to the decadent south and the capital city of King’s Landing, where Jon’s father, Lord Eddard Stark, serves as the Hand of King Robert Baratheon amid a nest of courtly vipers . . . to the barbarian lands across the Narrow Sea, where the young princess Daenerys Targaryen has found the unexpected in her forced marriage to the Dothraki warlord Khal Drogo: love—and with it, for the first time in her life, power. Meanwhile, the dwarf Tyrion Lannister, accused by Lady Catelyn Stark of the attempted murder of her now-crippled youngest son, must call upon all his cunning and wit to survive when he is captured and imprisoned in the lofty dungeons of the Eyrie, where Lady Stark’s sister—a woman obsessed with vengeance against all Lannisters—rules. But Catelyn’s impulsive arrest of the Imp will set in motion a series of violent events whose outcome is fated to shake the world at the worst possible moment. For now is not the time for private feuds and bloodthirsty ambitions. Winter is coming . . . and with it, terrors beyond imagining. From the Hardcover edition.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780345535603"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "034553560X"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": true
+				},
+				"pageCount": 160,
+				"printType": "BOOK",
+				"categories": [
+					"Comics & Graphic Novels"
+				],
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.2.3.0.preview.3",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=gya4AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=gya4AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=gya4AwAAQBAJ&printsec=frontcover&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=5&source=gbs_api",
+				"infoLink": "https://play.google.com/store/books/details?id=gya4AwAAQBAJ&source=gbs_api",
+				"canonicalVolumeLink": "https://play.google.com/store/books/details?id=gya4AwAAQBAJ",
+				"seriesInfo": {
+					"kind": "books#volume_series_info",
+					"shortSeriesBookTitle": " Volume Two",
+					"bookDisplayNumber": "2",
+					"volumeSeries": [
+						{
+							"seriesId": "c7rMGgAAABC-oM",
+							"seriesBookType": "ISSUE",
+							"orderNumber": 2
+						}
+					]
+				}
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "FOR_SALE",
+				"isEbook": true,
+				"listPrice": {
+					"amount": 16.99,
+					"currencyCode": "CAD"
+				},
+				"retailPrice": {
+					"amount": 16.99,
+					"currencyCode": "CAD"
+				},
+				"buyLink": "https://play.google.com/store/books/details?id=gya4AwAAQBAJ&rdid=book-gya4AwAAQBAJ&rdot=1&source=gbs_api",
+				"offers": [
+					{
+						"finskyOfferType": 1,
+						"listPrice": {
+							"amountInMicros": 16990000,
+							"currencyCode": "CAD"
+						},
+						"retailPrice": {
+							"amountInMicros": 16990000,
+							"currencyCode": "CAD"
+						},
+						"giftable": true
+					}
+				]
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_The_Graphic_Novel-sample-epub.acsm?id=gya4AwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_The_Graphic_Novel-sample-pdf.acsm?id=gya4AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=gya4AwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "#1 NEW YORK TIMES BESTSELLER Novelist Daniel Abraham and illustrator Tommy Patterson are not merely turning George R. R. Martin’s epic fantasy A Game of Thrones into a graphic novel: They are meticulously translating one art form into ..."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "PCe4AwAAQBAJ",
+			"etag": "VWgsLdh5z/0",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/PCe4AwAAQBAJ",
+			"volumeInfo": {
+				"title": "A Game of Thrones: Comic Book",
+				"authors": [
+					"George R. R. Martin"
+				],
+				"publisher": "Bantam Dell",
+				"publishedDate": "2012-06-27",
+				"description": "Dangerous secrets come to light as Daniel Abraham continues his inspired adaptation of George R. R. Martin’s A Game of Thrones. Assisted by the enigmatic Littlefinger, Lord Eddard Stark delves deeper into the death of his predecessor as King’s Hand, but the answers he finds only cast a wider net of suspicion over a royal court already reeking of corruption and treachery. Meanwhile, in the icy environs of Castle Black, the bastard Jon Snow learns a lesson in bravery and brotherhood from a self-confessed coward, Samwell Tarly.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780345538307"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0345538307"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": true
+				},
+				"pageCount": 32,
+				"printType": "BOOK",
+				"categories": [
+					"Comics & Graphic Novels"
+				],
+				"averageRating": 3,
+				"ratingsCount": 1,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.1.1.0.preview.3",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=PCe4AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=PCe4AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=PCe4AwAAQBAJ&printsec=frontcover&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=6&source=gbs_api",
+				"infoLink": "http://books.google.ca/books?id=PCe4AwAAQBAJ&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/A_Game_of_Thrones_Comic_Book.html?hl=&id=PCe4AwAAQBAJ",
+				"seriesInfo": {
+					"kind": "books#volume_series_info",
+					"shortSeriesBookTitle": "",
+					"bookDisplayNumber": "8",
+					"volumeSeries": [
+						{
+							"seriesId": "P4rXGgAAABDpkM",
+							"seriesBookType": "ISSUE",
+							"orderNumber": 8
+						}
+					]
+				}
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-epub.acsm?id=PCe4AwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-pdf.acsm?id=PCe4AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=PCe4AwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Dangerous secrets come to light as Daniel Abraham continues his inspired adaptation of George R. R. Martin’s A Game of Thrones."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "W2PZAwAAQBAJ",
+			"etag": "OckazRQSf78",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/W2PZAwAAQBAJ",
+			"volumeInfo": {
+				"title": "A Game of Thrones: Comic Book",
+				"authors": [
+					"George R. R. Martin"
+				],
+				"publisher": "Bantam Dell",
+				"publishedDate": "2014-07-22",
+				"description": "Trumpets sound, armies clash, and blood spills in the latest installment of bestselling author Daniel Abraham’s thrilling adaptation of George R. R. Martin’s beloved fantasy masterwork! Battle is joined at the Trident, with Tyrion Lannister in the vanguard—placed there by a father determined to rid himself of an embarrassment. But the fortunes of war are not so easily manipulated, as Lord Tywin is about to learn, to his great regret . . . and even greater rage. For in a brilliant tactical move, the host of young Robb Stark has descended upon the army of Jaime Lannister outside the besieged gates of Riverrun, and has won a great victory . . . and a prize that might end the war before it has fairly begun.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780345546319"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0345546318"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": true
+				},
+				"pageCount": 32,
+				"printType": "BOOK",
+				"categories": [
+					"Comics & Graphic Novels"
+				],
+				"averageRating": 3,
+				"ratingsCount": 1,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.2.3.0.preview.3",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=W2PZAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=W2PZAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=W2PZAwAAQBAJ&printsec=frontcover&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=7&source=gbs_api",
+				"infoLink": "http://books.google.ca/books?id=W2PZAwAAQBAJ&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/A_Game_of_Thrones_Comic_Book.html?hl=&id=W2PZAwAAQBAJ",
+				"seriesInfo": {
+					"kind": "books#volume_series_info",
+					"shortSeriesBookTitle": "",
+					"bookDisplayNumber": "20",
+					"volumeSeries": [
+						{
+							"seriesId": "P4rXGgAAABDpkM",
+							"seriesBookType": "ISSUE",
+							"orderNumber": 20
+						}
+					]
+				}
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-epub.acsm?id=W2PZAwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-pdf.acsm?id=W2PZAwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=W2PZAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Trumpets sound, armies clash, and blood spills in the latest installment of bestselling author Daniel Abraham’s thrilling adaptation of George R. R. Martin’s beloved fantasy masterwork!"
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "9Se4AwAAQBAJ",
+			"etag": "1SuQgKSVgqs",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/9Se4AwAAQBAJ",
+			"volumeInfo": {
+				"title": "A Game of Thrones: Comic Book",
+				"authors": [
+					"George R. R. Martin"
+				],
+				"publisher": "Bantam Dell",
+				"publishedDate": "2012-10-24",
+				"description": "George R. R. Martin’s fantasy masterpiece continues to unfold in dark words and darker deeds. Tyrion Lannister may be Lady Catelyn Stark’s prisoner, but the Imp is still in possession of his most dangerous weapon: his devious mind. Yet even the sharpest brain is a poor weapon to pit against naked steel, as he is about to discover in the wild mountains below the Eyrie. Far away, in King’s Landing, Tyrion’s abduction is just one more complication in the life of Lord Eddard Stark, the King’s Hand. But that title—and its attendant worries—may not be his much longer, for when a plot is hatched to assassinate Daenerys Targaryen and her unborn child, Ned must weigh his duty to King Robert against the claims of his conscience.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780345538321"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0345538323"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": true
+				},
+				"pageCount": 32,
+				"printType": "BOOK",
+				"categories": [
+					"Comics & Graphic Novels"
+				],
+				"averageRating": 3,
+				"ratingsCount": 1,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.1.1.0.preview.3",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=9Se4AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=9Se4AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=9Se4AwAAQBAJ&printsec=frontcover&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=8&source=gbs_api",
+				"infoLink": "http://books.google.ca/books?id=9Se4AwAAQBAJ&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/A_Game_of_Thrones_Comic_Book.html?hl=&id=9Se4AwAAQBAJ",
+				"seriesInfo": {
+					"kind": "books#volume_series_info",
+					"shortSeriesBookTitle": "",
+					"bookDisplayNumber": "10",
+					"volumeSeries": [
+						{
+							"seriesId": "P4rXGgAAABDpkM",
+							"seriesBookType": "ISSUE",
+							"orderNumber": 10
+						}
+					]
+				}
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-epub.acsm?id=9Se4AwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-pdf.acsm?id=9Se4AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=9Se4AwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "George R. R. Martin’s fantasy masterpiece continues to unfold in dark words and darker deeds."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "qCa4AwAAQBAJ",
+			"etag": "Tm0l/RjZzYk",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/qCa4AwAAQBAJ",
+			"volumeInfo": {
+				"title": "A Game of Thrones: Comic Book",
+				"authors": [
+					"George R. R. Martin"
+				],
+				"publisher": "Bantam Dell",
+				"publishedDate": "2012-02-15",
+				"description": "Death comes to Winterfell in the fourth installment of Daniel Abraham’s thrilling adaptation of George R. R. Martin’s fantasy masterwork A Game of Thrones. Bran Stark lies broken, in a coma from which he may never awaken. Yet his would-be killers dare not leave his death to chance. And now is the time to strike. Bran’s father, Eddard Stark, has left for King’s Landing to serve as the Hand of the King. Bran’s bastard brother, Jon Snow, rides north to join the brotherhood of the Night’s Watch. Robb, his trueborn brother, has all of Winterfell in his charge. And his mother, Catelyn, is worn out with grieving. Who can protect the young lord?",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780345536198"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0345536193"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": true
+				},
+				"pageCount": 32,
+				"printType": "BOOK",
+				"categories": [
+					"Comics & Graphic Novels"
+				],
+				"averageRating": 3,
+				"ratingsCount": 1,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.1.1.0.preview.3",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=qCa4AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=qCa4AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=qCa4AwAAQBAJ&printsec=frontcover&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=9&source=gbs_api",
+				"infoLink": "http://books.google.ca/books?id=qCa4AwAAQBAJ&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/A_Game_of_Thrones_Comic_Book.html?hl=&id=qCa4AwAAQBAJ",
+				"seriesInfo": {
+					"kind": "books#volume_series_info",
+					"shortSeriesBookTitle": "",
+					"bookDisplayNumber": "4",
+					"volumeSeries": [
+						{
+							"seriesId": "P4rXGgAAABDpkM",
+							"seriesBookType": "ISSUE",
+							"orderNumber": 4
+						}
+					]
+				}
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-epub.acsm?id=qCa4AwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-pdf.acsm?id=qCa4AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=qCa4AwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Death comes to Winterfell in the fourth installment of Daniel Abraham’s thrilling adaptation of George R. R. Martin’s fantasy masterwork A Game of Thrones."
+			}
+		},
+		{
+			"kind": "books#volume",
+			"id": "Pyi4AwAAQBAJ",
+			"etag": "dMTD/28bpsE",
+			"selfLink": "https://www.googleapis.com/books/v1/volumes/Pyi4AwAAQBAJ",
+			"volumeInfo": {
+				"title": "A Game of Thrones: Comic Book",
+				"authors": [
+					"George R. R. Martin"
+				],
+				"publisher": "Bantam Dell",
+				"publishedDate": "2013-05-28",
+				"description": "Stark choices mark the latest installment of Daniel Abraham’s acclaimed adaptation of the fantasy masterwork by George R. R. Martin. . . . In the aftermath of Jaime Lannister’s brutal attack upon Eddard Stark and his men, King Robert meets with the wounded Eddard—and presents him with a choice of evils: either Eddard accepts the heavy mantle of the King’s Hand once more . . . or Robert will appoint Jaime to the position. Adding to the troubles of House Stark, Tyrion Lannister wins his freedom from Catelyn Stark; now the Imp returns to his father, intent on revenge for his treatment at the hands of Cat and her mad sister. Meanwhile, far to the north, the bastard Jon Snow becomes a sworn brother of the Night’s Watch and must put his loyalty to the Starks aside.",
+				"industryIdentifiers": [
+					{
+						"type": "ISBN_13",
+						"identifier": "9780345541758"
+					},
+					{
+						"type": "ISBN_10",
+						"identifier": "0345541758"
+					}
+				],
+				"readingModes": {
+					"text": true,
+					"image": true
+				},
+				"pageCount": 32,
+				"printType": "BOOK",
+				"categories": [
+					"Comics & Graphic Novels"
+				],
+				"averageRating": 3,
+				"ratingsCount": 1,
+				"maturityRating": "NOT_MATURE",
+				"allowAnonLogging": true,
+				"contentVersion": "1.1.1.0.preview.3",
+				"panelizationSummary": {
+					"containsEpubBubbles": false,
+					"containsImageBubbles": false
+				},
+				"imageLinks": {
+					"smallThumbnail": "http://books.google.com/books/content?id=Pyi4AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+					"thumbnail": "http://books.google.com/books/content?id=Pyi4AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+				},
+				"language": "en",
+				"previewLink": "http://books.google.ca/books?id=Pyi4AwAAQBAJ&printsec=frontcover&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&cd=10&source=gbs_api",
+				"infoLink": "http://books.google.ca/books?id=Pyi4AwAAQBAJ&dq=Warriors+inauthor:Martin,+George+R.+R.&hl=&source=gbs_api",
+				"canonicalVolumeLink": "https://books.google.com/books/about/A_Game_of_Thrones_Comic_Book.html?hl=&id=Pyi4AwAAQBAJ",
+				"seriesInfo": {
+					"kind": "books#volume_series_info",
+					"shortSeriesBookTitle": "",
+					"bookDisplayNumber": "13",
+					"volumeSeries": [
+						{
+							"seriesId": "P4rXGgAAABDpkM",
+							"seriesBookType": "ISSUE",
+							"orderNumber": 13
+						}
+					]
+				}
+			},
+			"saleInfo": {
+				"country": "CA",
+				"saleability": "NOT_FOR_SALE",
+				"isEbook": false
+			},
+			"accessInfo": {
+				"country": "CA",
+				"viewability": "PARTIAL",
+				"embeddable": true,
+				"publicDomain": false,
+				"textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+				"epub": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-epub.acsm?id=Pyi4AwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"pdf": {
+					"isAvailable": true,
+					"acsTokenLink": "http://books.google.ca/books/download/A_Game_of_Thrones_Comic_Book-sample-pdf.acsm?id=Pyi4AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+				},
+				"webReaderLink": "http://play.google.com/books/reader?id=Pyi4AwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+				"accessViewStatus": "SAMPLE",
+				"quoteSharingAllowed": false
+			},
+			"searchInfo": {
+				"textSnippet": "Stark choices mark the latest installment of Daniel Abraham’s acclaimed adaptation of the fantasy masterwork by George R. R. Martin."
+			}
+		}
+	]
+}

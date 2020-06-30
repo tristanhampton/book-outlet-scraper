@@ -1,13 +1,13 @@
-const puppeteer = require('puppeteer');
-const fs = require('fs');
-
-let pagenumber = 1
-let size = 300
-let url = `https://bookoutlet.ca/Store/Browse?Nc=31&Ns=600-1421&page=${pagenumber}&size=${size}&sort=popularity_0`
-let i = 0
 
 
 const BookOutletScraper = async() => {
+    const puppeteer = require('puppeteer');
+    const fs = require('fs');
+    
+    let pagenumber = 1
+    let size = 300
+    let url = `https://bookoutlet.ca/Store/Browse?Nc=31&Ns=600-1421&page=${pagenumber}&size=${size}&sort=popularity_0`
+    let i = 0
     try {
         // Open Browser
         const browser = await puppeteer.launch({headless: true});
@@ -24,14 +24,15 @@ const BookOutletScraper = async() => {
 
         
         let catalogueArray = [];
-
+        let tempCatalogueArray = []
         try {
             // While there is still a next button on the pagination, continue scraping
             while (nextButton != null) {
                 await page.goto(`https://bookoutlet.ca/Store/Browse?Nc=31&Ns=600-1421&page=${pagenumber}&size=${size}&sort=popularity_0`)
                 await page.waitForSelector('a.line-clamp-2')
+
     
-                catalogueArray += await page.evaluate((pagenumber) => {
+                tempCatalogueArray = await page.evaluate((pagenumber) => {
                     let titleNodeList = document.querySelectorAll('a.line-clamp-2');
                     let authorNodeList = document.querySelectorAll('p.author');
                     let formatNodeList = document.querySelectorAll('p.small');
@@ -50,6 +51,8 @@ const BookOutletScraper = async() => {
                     }
                     return catalogueArray
                 })
+
+                catalogueArray = [...catalogueArray, ...tempCatalogueArray];
                 
                 pagenumber++
                 nextButton = await page.evaluate(() => document.querySelector('[aria-label="Next"]')) 
@@ -58,9 +61,6 @@ const BookOutletScraper = async() => {
         } catch(err) {
             console.log(err)
         }
-
-
-        
 
         fs.writeFile('catalogue.json', JSON.stringify(catalogueArray, null, '\t'), function(err) {
             if (err) throw err
@@ -74,4 +74,4 @@ const BookOutletScraper = async() => {
     }
 }
 
-BookOutletScraper();
+exports.BookOutletScraper = BookOutletScraper
