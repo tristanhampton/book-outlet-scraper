@@ -30,12 +30,7 @@ const GetReviews = async () => {
             catalogue[i] = {...catalogue[i],isbn10: data.items[0].volumeInfo.industryIdentifiers[1].identifier,
             };
 
-            if (catalogue[i].rating < minRating) {
-                console.log(`=== The previous book\'s rating was less than ${minRating} and will be deleted from the catalogue ===`);
-                catalogue.splice(i, 1);
-                // index is set back to make up for the book that was removed
-                i--;
-            }
+            
 
         } catch (err) {
             console.log("=== The previous book was missing some data and will be deleted from the catalogue ===");
