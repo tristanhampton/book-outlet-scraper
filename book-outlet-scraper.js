@@ -1,10 +1,11 @@
-const BookOutletScraper = async () => {
+const BookOutletScraper = async (responses) => {
+
     const puppeteer = require('puppeteer');
     const fs = require('fs');
     
     let pagenumber = 1
     let size = 300
-    let url = `https://bookoutlet.ca/Store/Browse?Nc=31&Ns=600-1421&page=${pagenumber}&size=${size}&sort=popularity_0`
+    let url = responses.genre
     let i = 0
     let catalogueArray = [];
     let tempCatalogueArray = []
@@ -24,7 +25,7 @@ const BookOutletScraper = async () => {
     
         // While there is still a next button on the pagination, continue scraping
     while (nextButton != null) {
-        await page.goto(`https://bookoutlet.ca/Store/Browse?Nc=31&Ns=600-1421&page=${pagenumber}&size=${size}&sort=popularity_0`)
+        await page.goto(url + `&page=${pagenumber}`)
         await page.waitForSelector('a.line-clamp-2')
 
 
