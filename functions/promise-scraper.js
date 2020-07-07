@@ -1,25 +1,27 @@
 const BookOutletScraper = (userInput) => {
     return new Promise(async (resolve, reject) => {
         const puppeteer = require('puppeteer');
-        const fs = require('fs');
+        const write = require('./write-file')
 
         let pagenumber = 1
-        let size = 300
         let url = userInput.genre
-        let i = 0
         let catalogueArray = [];
         let tempCatalogueArray = []
         let nextButton = 0
+
         // Open Browser
         const browser = await puppeteer.launch({ headless: true });
         // Open new page
         const page = await browser.newPage();
 
+        console.log('Please wait while we look up books on Book Outlet...')
+
         while (nextButton != null) {
+            // Goes to the website with the specified page. Will go to each page until there is no next button on the pagination.
             await page.goto(url + `&page=${pagenumber}`)
             await page.waitForSelector('a.line-clamp-2')
 
-
+            // Get all the data on the pag as arrays
             tempCatalogueArray = await page.evaluate((pagenumber) => {
                 let titleNodeList = document.querySelectorAll('a.line-clamp-2');
                 let authorNodeList = document.querySelectorAll('p.author');
@@ -28,6 +30,7 @@ const BookOutletScraper = (userInput) => {
                 let salePriceNodeList = document.querySelectorAll('.price-h6 span:last-of-type span');
                 let catalogueArray = [];
 
+                // Parse the data and save it
                 for (let i = 0; i < titleNodeList.length; i++) {
                     catalogueArray[i] = {
                         title: titleNodeList[i].dataset.text,
@@ -46,15 +49,12 @@ const BookOutletScraper = (userInput) => {
             nextButton = await page.evaluate(() => document.querySelector('[aria-label="Next"]'))
         }
 
-        await fs.writeFile('data/catalogue.json', JSON.stringify(catalogueArray, null, '\t'), function (err) {
-            if (err) throw err
-            console.log('Saved the catalogue from Book Outlet!');
-        })
-
-        if (catalogueArray.length > 0)
-            resolve()
-        else 
+        write.WriteJSON('data/catalogue.json', catalogueArray).then( () => {
+            resolve();
+        }).catch(err => {
+            console.log(`Error! ${err}`)
             reject()
+        })
     })
 }
 

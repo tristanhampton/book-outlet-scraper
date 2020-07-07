@@ -2,6 +2,7 @@ const GetReviews = () => {
     return new Promise(async (resolve, reject) =>  {
         const axios = require('axios');
         const fs = require('fs');
+        const write = require('./write-file')
         const key = `AIzaSyCQX1cevAq9WAcfvGU6XMVuiDrXwujEKQU`;
 
         let rawdata = fs.readFileSync('./data/catalogue.json');
@@ -31,18 +32,13 @@ const GetReviews = () => {
                 // index is set back to make up for the book that was removed
                 i--
             }
-
         }
 
-        fs.writeFile("data/catalogue.json", JSON.stringify(catalogue, null, "\t"), function (err) {
-            if (err) throw err;
-            console.log("Saved updated review info to the catalogue!");
-        });
-
-        if (catalogue.length > 0)
-            resolve()
-        else 
-            reject()
+        write.WriteJSON('data/catalogue.json', catalogue).then(() => {
+            resolve();
+        }).catch(err => {
+            reject(err => console.log(err))
+        })
     });
 }
 

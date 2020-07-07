@@ -2,15 +2,19 @@ const prompts = require('prompts');
 
 const questions = [
   {
-    type: "select",
-    name: "genre",
-    message: "Pick a genre",
+    type: 'select',
+    name: 'genre',
+    message: 'Pick a genre',
     choices: [
-      { title: "Fantasy", value: "https://bookoutlet.ca/Store/Browse?Nc=31&size=24&sort=popularity_0&Ns=600" },
-      { title: "Sci-fi", value: "https://bookoutlet.ca/Store/Browse?Nc=31&size=24&sort=popularity_0&Ns=1421" },
-      { title: "Horror", value: "https://bookoutlet.ca/Store/Browse?Nc=31&size=24&sort=popularity_0&Ns=803" }
+      { title: 'Fantasy', value: 'https://bookoutlet.ca/Store/Browse?Nc=31&size=24&sort=popularity_0&Ns=600' },
+      { title: 'Sci-fi', value: 'https://bookoutlet.ca/Store/Browse?Nc=31&size=24&sort=popularity_0&Ns=1421' },
+      { title: 'Horror', value: 'https://bookoutlet.ca/Store/Browse?Nc=31&size=24&sort=popularity_0&Ns=803' },
+      { title: 'Mystery', value: 'https://bookoutlet.ca/Store/Browse?Nc=31&Ns=1082'},
+      { title: 'General Fiction', value: 'https://bookoutlet.ca/Store/Browse?Nc=31&Ns=683'},
+      { title: 'Short Stories', value: 'https://bookoutlet.ca/Store/Browse?Nc=31&Ns=1459'},
+      { title: 'Science', value: 'https://bookoutlet.ca/Store/Browse?Nc=72'}
     ],
-    initial: 1
+    initial: 0
   },
   {
     type: 'number',
