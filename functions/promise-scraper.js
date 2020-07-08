@@ -37,7 +37,8 @@ const BookOutletScraper = (userInput) => {
                         author: authorNodeList[i].innerText.trim(),
                         format: formatNodeList[i].innerText.trim(),
                         listPrice: Number(listPriceNodeList[i].innerText.slice(1)),
-                        salePrice: Number(salePriceNodeList[i].innerText.slice(7))
+                        salePrice: Number(salePriceNodeList[i].innerText.slice(7)),
+                        url: titleNodeList[i].href
                     }
                 }
                 return catalogueArray
