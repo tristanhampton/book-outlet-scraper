@@ -3,3 +3,6 @@ This app was built with a love of books, and an appreciation for discounts. Book
 
 ## How to Use
 Download a copy of the app and run an npm install. Run the app with `node app.js` and follow the steps the terminal prompts. The output is a JSON file with the books and their related information.
+
+## Important Note
+Google Books has a limit of 10,000 requests per day with the API.
