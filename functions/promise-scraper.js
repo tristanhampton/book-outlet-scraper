@@ -1,7 +1,10 @@
+/**
+ * Scrapes Book Outlet for each book available in a genre. The key to stopping it is to stop when there is no more next button available in the pagination.
+ * @param {obj} userInput - User inpt saved from the app menu. Used in this case to build the URL to scrape the website
+ */
 const BookOutletScraper = (userInput) => {
     return new Promise(async (resolve, reject) => {
         const puppeteer = require('puppeteer');
-        const write = require('./write-file')
 
         let pagenumber = 1
         let url = userInput.genre
@@ -47,15 +50,12 @@ const BookOutletScraper = (userInput) => {
             catalogueArray = [...catalogueArray, ...tempCatalogueArray];
 
             pagenumber++
+            // switch comments to scrape multiple/one pages
             nextButton = await page.evaluate(() => document.querySelector('[aria-label="Next"]'))
+            // nextButton = null
         }
 
-        write.WriteJSON('data/catalogue.json', catalogueArray).then( () => {
-            resolve();
-        }).catch(err => {
-            console.log(`Error! ${err}`)
-            reject()
-        })
+        resolve(catalogueArray)
     })
 }
 

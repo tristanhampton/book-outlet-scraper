@@ -27,7 +27,7 @@ const questions = [
   {
     type: 'number',
     name: 'discountRate',
-    message: 'What is the maximum discount rate you\'d like to apply?',
+    message: 'What is the minimum discount you\'d like to search for?',
     min: 1,
     max: 100
   },
@@ -41,11 +41,13 @@ const questions = [
       { title: 'Softcover', value: '(Softcover)' },
       { title: 'Boxed Set', value: '(Boxed Set)' },
       { title: 'Pocket Books', value: '(Pocket Books)' },
-    ],
-    hint: 'Space to select, return to submit'
+    ]
   }
 ];
 
+/**
+ * Launches a menu in terminal that prompts the user for information that will be used to filter the responses from Book Outlet and Google Books
+ */
 const LaunchMenu = async () => {
   return new Promise(async (resolve, reject) => {
     const response = await prompts(questions)
