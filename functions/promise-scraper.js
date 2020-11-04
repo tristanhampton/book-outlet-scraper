@@ -51,8 +51,8 @@ const BookOutletScraper = (userInput) => {
 
             pagenumber++
             // switch comments to scrape multiple/one pages
-            nextButton = await page.evaluate(() => document.querySelector('[aria-label="Next"]'))
-            // nextButton = null
+            // nextButton = await page.evaluate(() => document.querySelector('[aria-label="Next"]'))
+            nextButton = null
         }
 
         resolve(catalogueArray)

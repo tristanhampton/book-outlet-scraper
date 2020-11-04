@@ -1,5 +1,7 @@
 /**
- * Go to url and get data about a particular book from the Google Books API
+ * Go to url and get data about a particular book from the Google Books API.
+ * Google API has a daily request limit of 50,000. If receiving error 429, you are going over their daily limit. 
+ * Google API also has a concurrent limit of 10 requests at the same time, which also results in an error 429. Currently trying to resolve this.
  * @param {string} url - URL that points to the Google Books API
  * @param {int} index - Position in the previously created book catalogue
  * @param {*} catalogue - Previously created catalogue returned from scraping Book Outlet
@@ -20,7 +22,7 @@ const getData = (url, index, catalogue) => {
 
             resolve()
         } catch (err) {
-            reject('Something went wrong looking up a book ==> ' + err)
+            reject('Something went wrong looking up a book ==> ' + catalogue[index].title + ' ==> ' + err)
         }
 
     });
@@ -33,7 +35,7 @@ const getData = (url, index, catalogue) => {
  */
 const GetReviews = (catalogue) => {
     return new Promise(async (resolve, reject) =>  {
-        const key = `AIzaSyCQX1cevAq9WAcfvGU6XMVuiDrXwujEKQU`;
+        const key = `AIzaSyC5aPhV1SEqcYYRP0mYPn1KaskddvTwFFo`;
         
         const urls = []
         catalogue.forEach(book => {

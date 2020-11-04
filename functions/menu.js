@@ -12,7 +12,8 @@ const questions = [
       { title: 'Mystery', value: 'https://bookoutlet.ca/Store/Browse?Nc=31&Ns=1082'},
       { title: 'General Fiction', value: 'https://bookoutlet.ca/Store/Browse?Nc=31&Ns=683'},
       { title: 'Short Stories', value: 'https://bookoutlet.ca/Store/Browse?Nc=31&Ns=1459'},
-      { title: 'Science', value: 'https://bookoutlet.ca/Store/Browse?Nc=72'}
+      { title: 'Science', value: 'https://bookoutlet.ca/Store/Browse?Nc=72'},
+      { title: 'Biography', value: 'https://bookoutlet.ca/Store/Browse?Nc=5'}
     ],
     initial: 0
   },

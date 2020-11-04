@@ -14,12 +14,15 @@ const Filter = (catalogue, responses) => {
                 catalogue.splice(i, 1);
                 // index is set back to make up for the book that was removed
                 i--;
+            // Checks books rating against users minimum rating.
             } else if (catalogue[i].rating <= responses.minRating && responses.minRating != null) {
                 catalogue.splice(i, 1);
                 i--;
+            // Checks format of books against users accepted formats
             } else if (!responses.formats.includes(catalogue[i].format) && responses.formats != null) {
                 catalogue.splice(i, 1);
                 i--;
+            // If book discount is less than the percentage off wanted, it is removed. i.e. 70% list price is removed if wanting at least 80% off.
             } else if ((100-catalogue[i].salePrice * 100 / catalogue[i].listPrice) < responses.discountRate && responses.discountRate != null) {
                 catalogue.splice(i, 1);
                 i--;
